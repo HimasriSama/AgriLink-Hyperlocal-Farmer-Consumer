@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AgriLink</title>
+</head>
+<body>
+    <h1>AgriLink – Hyperlocal Farmer to Consumer</h1>
+
+    <form method="POST">
+        <input type="text" name="crop" placeholder="Crop name" required>
+        <input type="number" name="quantity" placeholder="Quantity (kg)" required>
+        <button type="submit">Pre-Order</button>
+    </form>
+
+    <p><b>Current Demand:</b> {{ current_demand }} kg</p>
+    <p><b>AI Predicted Demand:</b> {{ predicted_demand }} kg</p>
+</body>
+</html>
