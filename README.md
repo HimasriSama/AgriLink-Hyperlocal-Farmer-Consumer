@@ -40,3 +40,10 @@ AgriLink provides:
 ---
 
 ## 📂 Project Structure
+AgriLink-Hyperlocal-Farmer-Consumer/
+│── app.py
+│── templates/
+│ └── index.html
+│── static/
+│ └── style.css
+│── README.md
